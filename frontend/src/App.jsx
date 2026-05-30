@@ -25,7 +25,7 @@ function App() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://127.0.0.1:5000/generate-plan",
+        "https://prepmentor-backend.onrender.com/generate-plan",
         formData
       );
 
